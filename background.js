@@ -30,7 +30,7 @@ for (let i = 0; i < customSearch.items.length; i++) {
         });
 }
 
-chrome.contextMenus.onClicked.addListener(function (info, tab) {
+chrome.contextMenus.onClicked.addListener(function (info) {
     const selectedText = info.selectionText;
     const menuItemId = info.menuItemId;
     for (let i = 0; i < customSearch.items.length; i++) {
