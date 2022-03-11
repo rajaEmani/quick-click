@@ -1,0 +1,15 @@
+{
+  "name": "Click quick",
+  "description": "Add a right menu button to search on different sites",
+   "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "version": "0.1",
+  "permissions": [ "contextMenus", "tabs" , "storage"],
+  "minimum_chrome_version": "9",
+  "manifest_version": 3
+}
